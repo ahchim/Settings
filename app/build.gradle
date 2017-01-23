@@ -19,6 +19,10 @@ android {
     }
     // 여기까지는 AndroidManifest.xml 설정과 같다.
 
+    lintOptions{
+        abortOnError false
+    }
+
     // Play Store에서 키 설정 하고 올리라고 한다.
     // 그리고 다른사람이 내 꺼 배포 못하겠찌
     signingConfigs{
