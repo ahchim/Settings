@@ -6,7 +6,7 @@ android {
     // 컴파일(class 파일 생성)러 버전
     compileSdkVersion 25
     // 빌드 툴 버전
-    buildToolsVersion "25.0.2"
+    buildToolsVersion "25.0.1"
     // 컴파일러 버전, 빌드 툴 버전 두가지가 있다.
 
     defaultConfig {
